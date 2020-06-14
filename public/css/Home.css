@@ -7,7 +7,6 @@
         padding: 10px;
         height: 500px;
         margin-top: 50px;
-        z-index: -2;
 }
 
 .mainHeading{
@@ -18,10 +17,35 @@
 .paragraph{
         line-height: 2;
         font-size: large;
+        text-align: justify;
+        width: 75%;     
 }
 
 .RegisterBtn{
         padding-left: 60px;
         padding-right: 60px;
         font-size: x-large;
+}
+
+@media (max-width : 700px){
+
+        .autocen{
+                display: none;
+        }
+
+        .paragraph{
+                width: 100%;
+        }
+
+        iframe{
+                width: 300px;
+        }
+        
+}
+
+@media (max-width : 800px){
+
+        .mobileImg{
+                height: 400px;
+        }
 }
