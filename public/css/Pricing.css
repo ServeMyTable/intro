@@ -1,0 +1,11 @@
+.mainPricing{
+
+        background-color: var(--theme-color);
+        padding: 10px;
+}
+
+.pricingBtn{
+        color: white;
+        margin-bottom: 50px;
+        
+}

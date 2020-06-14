@@ -1,0 +1,15 @@
+#ContactMe{
+    background: white;
+    z-index: 2;
+}
+
+.Cheading{
+    margin-top: 60px;
+}
+
+@media (max-width:700px){
+
+    .contactIcon{
+        display: none;
+    }
+}

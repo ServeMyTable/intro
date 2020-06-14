@@ -1,0 +1,27 @@
+.topContainer{
+        background: var(--theme-color);
+        
+}
+
+.mobileImg{
+        padding: 10px;
+        height: 500px;
+        margin-top: 50px;
+        z-index: -2;
+}
+
+.mainHeading{
+        margin-top: 60px;
+        font-size: 50px;
+}
+
+.paragraph{
+        line-height: 2;
+        font-size: large;
+}
+
+.RegisterBtn{
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: x-large;
+}

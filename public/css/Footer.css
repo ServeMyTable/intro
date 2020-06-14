@@ -1,0 +1,32 @@
+.copyrightText{
+
+        text-align: center;
+}
+
+.footer{
+        background-color: whitesmoke;
+        padding: 40px 40px 40px 40px;
+}
+
+.tnc{
+        
+        text-align: left;
+        background-color: whitesmoke;
+        color: black;
+}
+
+.social-media{
+        text-align: center;
+        
+}
+.social{
+        color: black;
+        margin: 5px;
+}
+
+@media (max-width : 700px){
+
+        .tnc{
+                text-align: center;
+        }
+}

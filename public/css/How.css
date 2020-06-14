@@ -1,0 +1,20 @@
+.ImgGuest{
+
+        padding: 10px;
+        height: 400px;
+}
+
+.hiw{
+        text-align: center;
+}
+
+.HeadingSub{
+
+        font-weight: 800;
+        font-size: x-large;
+}
+
+.aboutHeading{
+        padding-top: 100px;
+        margin: 0;
+}

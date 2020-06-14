@@ -1,0 +1,49 @@
+body {
+        overflow-x: none;
+}
+
+.brand-name,.nav-link{
+        color: black;
+}
+
+.brand-name:hover{
+        color: var(--theme-orange);
+}
+
+
+.nav-link{
+        color: black;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: block;
+        height: 100%;
+}
+  
+.nav-item{
+        padding-bottom: 10px;
+}
+  
+.navbar{
+        padding-bottom: 0;
+}
+  
+.nav-link:hover{
+        color: var(--theme-orange);
+}
+.nav-item:hover{
+        border-bottom: 1px solid var(--theme-orange);
+}
+
+.promovideo{
+        margin-top: 10px;
+        margin-bottom: 60px;
+}
+ 
+/*Mobile View*/
+@media (max-width: 700px) {
+        
+        .brand-name{
+                font-size: 100;
+        }
+}
+  

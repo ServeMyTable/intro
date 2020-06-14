@@ -1,0 +1,45 @@
+<div class="mainPricing" id="pricing">
+        <div class="container">
+                <h1 class="logoFont Cheading hiw">Pricing</h1>
+                <br>
+                <div class="container hiw">
+                        <h2 class="mFont">It's Free</h2>
+                        <br>
+                        <button class="btn btn-lg themeRedBtn pricingBtn" data-toggle="modal" data-target="#Subscribe">Subscribe Now</button>
+                        <div class="modal fade" id="Subscribe" tabindex="-1" role="dialog">
+                                <div class="modal-dialog" role="document">
+                                        
+                                        <div class="modal-content">
+                                                <div class="modal-header">
+                                                        <p class="mFont">Registration Enquiry</p>
+                                                </div>
+                                                <form method="POST" action="/enquiry">
+                                                        <div class="modal-body">
+                                                                <button class="alert alert-success mFont" id="showMessage" style="display:none;" role="alert"></button>
+                                                                <div class="form-group">
+                                                                        <input class="mFont form-control" placeholder="Enter Email Address" name="EmailEnq" type="email" required>
+                                                                </div>
+                                                                
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                                <button class="btn yelBtn" type="submit" onclick="showMesage()">Submit</button>
+                                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                        </div>
+                                                </form>
+                                                
+                                        </div>
+                                        
+                                </div>
+                              </div>
+
+                </div>
+        </div>
+</div>
+
+<script>
+        function showMesage() {
+                document.getElementById('showMessage').style.display = "block";
+                const msg = 'Thank You for Showing your Interest, will let you know soon. (Launching Soon).';
+                document.getElementById('showMessage').innerHTML = msg;
+        }
+</script>
